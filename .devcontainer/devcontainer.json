@@ -1,0 +1,19 @@
+{
+  "name": "JavaScript Basic Course",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "liveServer.settings.donotShowInfoMsg": true
+      }
+    },
+    "codespaces": {
+      "idleTimeoutMinutes": 5
+    }
+  }
+}
